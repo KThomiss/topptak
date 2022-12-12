@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&display=swap");
+@import url(./variables.css);
+@import url(./navigation.css);
+@import url(./home/introduction.css);
+@import url(./home/services.css);
+@import url(./home/contact.css);
+@import url(./home/cards.css);
+@import url(./home/comments.css);
+@import url(./home/galleri.css);
+@import url(./team/profilecards.css);
+@import url(./galleri/galleriPage.css);
+@import url(./footer.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.topptak {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+button {
+  font-family: "chakra Petch", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}

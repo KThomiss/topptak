@@ -1,0 +1,107 @@
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: -2px;
+  background-color: var(--clr-medium-black);
+  padding-bottom: 10rem;
+}
+
+.card-container {
+  max-width: 400px;
+  min-width: 400px;
+  height: 200px;
+  display: flex;
+  border: none;
+}
+
+.card-bg-red {
+  background-image: linear-gradient(160deg, #f20505 0%, #8c031c 100%);
+  position: relative;
+  width: 40%;
+}
+
+.team {
+  background-image: url(../../images/logo/octagon-img.png);
+}
+.delivery {
+  background-image: url(../../images/logo/levering-img.png);
+}
+.responstid {
+  background-image: url(../../images/logo/timeglass-img.png);
+}
+
+.card-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 200px;
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  right: 15%;
+}
+.card-bg-black {
+  background-image: linear-gradient(160deg, #3c3c3c 0%, #7c7c7c 100%);
+  flex: 1;
+  width: 60%;
+}
+
+.card-title {
+  max-width: 100px;
+  text-transform: uppercase;
+}
+
+.card-text {
+  max-width: 150px;
+  color: #ded7d7;
+}
+
+.card-title,
+.card-text {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+@media (max-width: 400px) {
+  .card-img {
+    right: 8%;
+    top: -13%;
+  }
+
+  .team {
+    background-image: url(../../images/cards/card-img-small-team.png);
+  }
+  .delivery {
+    background-image: url(../../images/cards/card-img-small-levering.png);
+  }
+  .responstid {
+    background-image: url(../../images/cards/card-img-small-responstid.png);
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    min-width: 240px;
+  }
+
+  .card-bg-black {
+    width: 100%;
+    height: 200px;
+    padding: 20px 0;
+  }
+
+  .card-bg-red {
+    height: 100%;
+    width: 100%;
+  }
+
+  .card-title,
+  .card-text {
+    margin: 10px auto;
+    max-width: 170px;
+  }
+}

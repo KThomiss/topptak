@@ -1,0 +1,62 @@
+.footer {
+  background-color: var(--clr-light-gray);
+}
+
+.footer-row1,
+.footer-row2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-row2 {
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 25px;
+}
+
+.h4 {
+  font-size: 20px;
+  color: var(--clr-medium-red);
+  margin-bottom: 5px;
+}
+
+.footer-social-img {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+}
+
+.info-footer {
+  margin: 1px 0;
+}
+
+.footer-bg-topptak {
+  background-image: url(../images/liten-topptak.png);
+}
+.footer-bg-profftak {
+  background-image: url(../images/liten-profftak.png);
+}
+
+.footer-bg-topptak,
+.footer-bg-profftak {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-row3 {
+  background-color: black;
+  color: var(--clr-white);
+  text-align: center;
+  padding: 3px 0;
+}
+
+@media (max-width: 450px) {
+  .footer-row1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

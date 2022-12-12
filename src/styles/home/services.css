@@ -1,0 +1,141 @@
+.services-container {
+  margin-top: -2px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--clr-medium-black);
+}
+
+.container-left {
+  display: flex;
+  max-width: 410px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.services {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.services::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 25px;
+  background-color: var(--clr-opacity-dark);
+  color: white;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 5px;
+}
+.services::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 185px;
+  height: 25px;
+  background-color: var(--clr-cta-red);
+}
+
+.services-img1 {
+  background-image: url(../../images/tjenester-img-arbeid.jpg);
+}
+
+.services-img1::before {
+  content: "Blikkenslagerarbeid";
+}
+
+.services-img2 {
+  background-image: url(../../images/tjenester-img-membran.JPG);
+}
+
+.services-img2::before {
+  content: "Taktekking og membran";
+}
+
+.services-img3 {
+  background-image: url(../../images/tjenester-img-taksikring.jpg);
+}
+
+.services-img3::before {
+  content: "Taksikring";
+}
+
+.services-img4 {
+  background-image: url(../../images/tjenester-img-beslag.jpg);
+}
+
+.services-img4::before {
+  content: "Alle typer beslag";
+}
+
+.container-right {
+  color: var(--clr-text);
+  width: 50%;
+  max-width: 600px;
+  padding: 0 10px;
+}
+
+.services-ul {
+  margin: 10px 0;
+}
+
+.h2 {
+  color: var(--clr-white);
+  margin: 5px 0;
+  font-size: 22px;
+}
+
+.container-right-text {
+  margin: 5px 0;
+}
+
+@media (max-width: 850px) {
+  .services-container {
+    flex-direction: column;
+  }
+
+  .container-left,
+  .container-right {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .container-right {
+    width: 100%;
+  }
+
+  .h2 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .services {
+    width: 150px;
+    height: 150px;
+  }
+
+  .container-left {
+    width: 100%;
+  }
+
+  .services::before {
+    font-size: 12px;
+    padding-right: 2px;
+  }
+
+  .services::after {
+    right: 140px;
+  }
+}

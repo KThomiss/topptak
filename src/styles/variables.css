@@ -1,0 +1,19 @@
+:root {
+  --clr-medium-red: #f20505;
+  --clr-dark-red: #fd1640;
+  --clr-cta-red: #f20530;
+  --clr-burgunder-red: #8c031c;
+  --clr-dark-black: #000000;
+  --clr-medium-black: #0f0f0f;
+  --clr-light-gray: #dfdfdf;
+  --clr-medium-gray: #b1b1b1;
+  --clr-cta-black: #232323;
+  --clr-white: #ffffff;
+  --clr-text: #b1b1b1;
+
+  --clr-opacity-medium: rgba(13, 13, 13, 0.35);
+  --clr-opacity-dark: rgba(0, 0, 0, 0.5);
+  --clr-linear-gradient: linear-gradient(137deg, var(--clr-medium-red) 0%, var(--clr-cta-red) 100%);
+  --clr-linear-gradient-dark: linear-gradient(137deg, var(--clr-medium-red) 0%, var(--clr-cta-red) 0%, rgb(250, 84, 84) 100%);
+  --clr-linear-gradient-black: linear-gradient(137deg, var(--clr-medium-black) 0%, var(--clr-cta-black) 0%, rgb(250, 84, 84) 100%);
+}

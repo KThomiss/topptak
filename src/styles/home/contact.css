@@ -1,0 +1,140 @@
+.contact-section {
+  background-color: var(--clr-medium-black);
+  padding: 3rem 0;
+}
+
+.contact-container {
+  background-image: url(../../images/micro_carbon.png);
+}
+
+.info-container {
+  color: white;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+
+.icons-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px auto;
+  height: 100px;
+}
+
+.contact-icon1 {
+  background-image: url(../../images/contact-icon-pin.png);
+}
+.contact-icon2 {
+  background-image: url(../../images/contact-icon-phone.png);
+}
+.contact-icon3 {
+  background-image: url(../../images/contact-icon-mail.png);
+  height: 80px;
+}
+
+.wrapper-contact {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem 1rem;
+}
+
+.contact-title {
+  margin: 0 1rem;
+  padding-top: 2rem;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  background-color: #bbbaba;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 2px solid var(--clr-burgunder-red);
+}
+
+label {
+  display: block;
+  color: white;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+span {
+  color: var(--clr-dark-red);
+}
+
+.form-btn {
+  width: 100%;
+  border: none;
+}
+
+.form-error {
+  color: var(--clr-medium-red);
+  display: block;
+  margin-top: 2px;
+}
+
+.info-title {
+  font-weight: bold;
+  margin-top: 3px;
+  text-align: center;
+}
+
+.contact-info-text {
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .contact-img {
+    height: 75px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-img {
+    height: 50px;
+  }
+
+  .contact-icon3 {
+    width: 65px;
+  }
+
+  .contact-info-text {
+    font-size: 14px;
+  }
+
+  .contact-title {
+  }
+}
+
+@media (max-width: 450px) {
+  .contact-section {
+    padding: 1rem 0;
+  }
+
+  .contact-img {
+    height: 30px;
+  }
+
+  .contact-icon3 {
+    width: 40px;
+  }
+}
