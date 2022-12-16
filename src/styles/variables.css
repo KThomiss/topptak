@@ -11,9 +11,22 @@
   --clr-white: #ffffff;
   --clr-text: #b1b1b1;
 
+  --clr-sunset-gray: linear-gradient(180deg, rgba(177, 177, 177, 1) 98%, rgba(64, 64, 64, 1) 98%, rgba(15, 15, 15, 1) 100%);
+
   --clr-opacity-medium: rgba(13, 13, 13, 0.35);
   --clr-opacity-dark: rgba(0, 0, 0, 0.5);
   --clr-linear-gradient: linear-gradient(137deg, var(--clr-medium-red) 0%, var(--clr-cta-red) 100%);
   --clr-linear-gradient-dark: linear-gradient(137deg, var(--clr-medium-red) 0%, var(--clr-cta-red) 0%, rgb(250, 84, 84) 100%);
   --clr-linear-gradient-black: linear-gradient(137deg, var(--clr-medium-black) 0%, var(--clr-cta-black) 0%, rgb(250, 84, 84) 100%);
+
+  --clr-sunset-hover: linear-gradient(
+    180deg,
+    rgba(177, 177, 177, 1) 0%,
+    rgba(177, 177, 177, 1) 21%,
+    rgba(228, 150, 23, 1) 78%,
+    rgba(255, 240, 12, 1) 98%,
+    rgba(177, 177, 177, 1) 98%,
+    rgba(64, 64, 64, 1) 98%,
+    rgba(15, 15, 15, 1) 100%
+  );
 }

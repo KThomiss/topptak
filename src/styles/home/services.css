@@ -1,6 +1,5 @@
 .services-container {
-  margin-top: -2px;
-  padding: 15px;
+  padding: 3rem 15px;
   display: flex;
   justify-content: center;
   background-color: var(--clr-medium-black);
