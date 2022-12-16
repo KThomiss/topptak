@@ -6,11 +6,6 @@
   height: 500px;
 }
 
-.info-container-bg:hover {
-  background-image: var(--clr-linear-gradient-dark);
-  background-position: right;
-}
-
 .comments {
   margin: 0 auto;
   height: 450px;

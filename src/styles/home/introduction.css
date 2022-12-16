@@ -22,7 +22,6 @@
 .intro-container::before {
   content: "";
   background-image: url(../../images/img-bg-tak.png), var(--clr-sunset-gray);
-  /* background-color: var(--clr-medium-gray); */
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
